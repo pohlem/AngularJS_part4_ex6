@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Exercice 6</title>
+	<script type="text/javascript" src="assets/AngularJS/angularjs-1.7.5.js"></script>
+</head>
+<body ng-app>
+	<div>
+		<input type="button" name="par1"  value="Afficher Par 1" ng-click="par=1">
+		<input type="button" name="par2" value="Afficher par 2" ng-click="par=2">
+		<div ng-hide="par==1">
+			Hello !
+		</div>
+		<div ng-hide="par==2">
+			Salut !
+		</div>
+	</div>
+</body>
+</html>
